@@ -4,16 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css\styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>My Resume</title>
   </head>
   <body>
     <!-- Wrapper -->
-    <div>
+    <div class="wrapper">
       <!-- Main content -->
-      <div>
+      <div class="main-content">
         <!-- About me -->
         <div>
-          <h2>Software tester (candidate)</h2>
+          <h2 class="my-proffesion">Software tester (candidate)</h2>
           <h1>Serhii Parfentiev</h1>
           <p>
             Able to effectively self-manage during independent projects, as well
@@ -25,7 +34,7 @@
         <div>
           <h3>Projects</h3>
           <ol>
-            <li>
+            <li class="project-item">
               <a
                 href="https://docs.google.com/document/d/101svQ25XWx8pXB1Fvl0e9QI0hUHf1dKJgB9xdP2C2c4/edit?usp=sharing"
                 >Bugs on scouts.futbolkolektyw.pl site</a
@@ -36,7 +45,7 @@
                 >https://cryptohub.p.goit.global/</a
               >.......................................[ JavaScript ]
             </li>
-            <li>
+            <li class="project-item">
               <a href="https://kidslike.p.goit.global/">
                 https://kidslike.p.goit.global/</a
               >..................[ React.js, Node.js ]
@@ -98,11 +107,11 @@
         </div>
       </div>
       <!-- Sidebar -->
-      <aside>
-        <img src="img\photo.jpg" alt="My photo" width="300" />
+      <aside class="sidebar">
+        <img src="img\photo.jpg" alt="My photo" width="300" class="my-photo" />
         <!-- Contacts -->
-        <div>
-          <h3>Contacts</h3>
+        <div class="contacts-container">
+          <h3 class="sidebar-title">Contacts</h3>
           <p>Phone: <a href="tel:+48739641836">+48 739 641 836</a></p>
           <p>
             E-mail:
@@ -115,8 +124,8 @@
         </div>
 
         <!-- Tech skills -->
-        <div>
-          <h3>Tech Skills</h3>
+        <div class="tech-skills-container">
+          <h3 class="sidebar-title">Tech Skills</h3>
           <ul>
             <li>HTML5</li>
             <li>CSS3</li>
@@ -128,8 +137,8 @@
           </ul>
         </div>
         <!-- Soft Skills -->
-        <div>
-          <h3>Soft Skills</h3>
+        <div class="soft-skills-container">
+          <h3 class="sidebar-title">Soft Skills</h3>
           <ul>
             <li>Team player</li>
             <li>Great time management</li>
